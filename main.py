@@ -53,7 +53,7 @@ def new_game():
 
     for row in range(3):
         for col in range(3):
-            buttons[row][col].config(text = "", bg = "red")
+            buttons[row][col].config(text = "", bg = "#F0F0F0")
 
 window = Tk()
 window.title("Tic-Tac-Toe")
